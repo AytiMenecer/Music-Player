@@ -125,7 +125,7 @@ function seekTo() {
     curr_track.currentTime = seekto;
 }
 
-function setVolume() {
+function setVolume() { 
     curr_track.volume = volume_slider.value / 100;
 }
 
